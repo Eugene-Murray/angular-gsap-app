@@ -1,0 +1,10 @@
+<div class="container">
+  <div #artContainer1 class="art-box1"></div>
+  <div #artContainer2 class="art-box2"></div>
+  <div #artContainer3 class="art-box3"></div>
+  <div #artContainer4 class="art-box4"></div>
+
+  @for (item of items; track item) {
+  <div #box class="box">{{ item }}</div>
+  }
+</div>
